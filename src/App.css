@@ -1,0 +1,17 @@
+.content-container {
+  display: flex;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.chart-window {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 100vh;
+}

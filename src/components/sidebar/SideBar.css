@@ -1,0 +1,29 @@
+/* Sidebar.css */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px;
+}
+
+.menuItem {
+  vertical-align: top;
+  margin-left: 5px;
+}

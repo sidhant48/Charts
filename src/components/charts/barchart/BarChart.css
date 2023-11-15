@@ -1,0 +1,27 @@
+.legend-container {
+  position: relative;
+  text-align: right;
+  margin-top: -35px;
+}
+
+.legend-box {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.turquoise {
+  background-color: turquoise;
+}
+
+.green {
+  background-color: green;
+}
+
+.legend-label {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: -10px;
+}

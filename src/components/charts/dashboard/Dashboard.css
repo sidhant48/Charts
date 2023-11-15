@@ -1,0 +1,28 @@
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.chart-window {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 48%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.chart-window:nth-child(odd) {
+  margin-right: 0;
+}
+
+.chart-window:nth-child(even) {
+  margin-left: 0;
+}

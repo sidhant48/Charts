@@ -1,0 +1,45 @@
+.custom-select-container {
+  position: relative;
+  width: 70px;
+}
+
+.custom-select {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 3px;
+  outline: none;
+}
+
+.custom-select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #555;
+}
+
+.custom-select-arrow i {
+  font-size: 10px;
+}
+
+.custom-select-arrow::before {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.custom-select:hover {
+  border-color: #aaa;
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(85, 85, 85, 0.2);
+}
