@@ -1,12 +1,14 @@
 import React from "react";
 import "./Sidebar.css";
 
-import { RiWallet3Fill } from "react-icons/Ri";
-import { FaDollarSign } from "react-icons/Fa";
+import { FaDollarSign } from "react-icons/fa";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { BsFillPersonFill } from "react-icons/bs";
-import { MdContacts } from "react-icons/md";
-import { MdDashboard } from "react-icons/md";
+import {
+  MdContacts,
+  MdDashboard,
+  MdOutlineAccountBalanceWallet,
+} from "react-icons/md";
 
 function Sidebar({ onOptionClick }) {
   const options = [
@@ -23,7 +25,7 @@ function Sidebar({ onOptionClick }) {
         {options.map((option) => (
           <li key={option} onClick={() => onOptionClick(option)}>
             {option === "Dashboard" && <MdDashboard />}
-            {option === "Accounts" && <RiWallet3Fill />}
+            {option === "Accounts" && <MdOutlineAccountBalanceWallet />}
             {option === "Payroll" && <FaDollarSign />}
             {option === "Reports" && <IoDocumentTextSharp />}
             {option === "Advisor" && <BsFillPersonFill />}
